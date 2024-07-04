@@ -1,1 +1,2 @@
-
+- use finetune file found in DP Synthetic Data Generation based on sst2_balanced.csv
+- use inference file found in DP Synthetic Data Generation
