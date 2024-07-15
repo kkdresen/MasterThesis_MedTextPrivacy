@@ -1,6 +1,6 @@
 # Master Thesis
 
-This repository contains the code for my master thesis: *Balancing Privacy and Utility in Medical Text Data: PII Redaction and Differential Privacy. The Energy Cost of Developing GDPR-Compliant Text Anonymization Techniques*. The thesis is available in this GitHub repository. All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be raised via an issue in this repository or sent to my e-mail.
+This repository contains the code for my master thesis: *Balancing Privacy and Utility in Medical Text Data: PII Redaction and Differential Privacy. The Energy Cost of Developing GDPR-Compliant Text Anonymization Techniques*. All files should have sufficient documentation for reproduction and understanding. Any remaining questions or comments may be raised via an issue in this repository or sent to my e-mail.
 
 ## Abstract
 
