@@ -12,30 +12,30 @@ Our findings show that NER-based PII redaction consistently outperforms DP synth
 
 ## Structure of Repository
 
-The repository has eight folders:
+The repository has nine folders:
 
-### Data
+1. Data
 This folder contains the original dataset mtsamples.csv dataset and the preprocessed file `2016r_mtsamples_final.csv` containing extracted sentences of 2,016 patient-doctor transcriptions used in this study.
 
-### EDA
+2. EDA
 This folder contains all code and Jupyter notebooks for the exploratory data analysis and data preprocessing.
 
-### Medical PII Redaction
+3. Medical PII Redaction
 This folder contains all code and Jupyter notebooks for the experiments on Named Entity Recognition (NER) for Personally Identifiable Information (PII) redaction and energy measurement using CodeCarbon.
 
-### DP Synthetic Data Generation
+4. DP Synthetic Data Generation
 This folder contains all code and Jupyter notebooks for the experiments related to differentially private synthetic text generation using DistilGPT2. The code also includes the energy measurement of the anonymization technique using CodeCarbon and Renyi Differential Privacy to measure and validate the amount of noise added in the training process 
 
-### Privacy
+6. Privacy
 This folder contains all code and Jupyter notebooks related to assessing privacy using n-grams.
 
-### Utility
+7. Utility
 This folder contains all code and Jupyter notebooks for evaluating the utility of the anonymized data using a multi-label classification task
 
-### Fidelity
+8. Fidelity
 This folder contains all code and Jupyter notebooks for evaluating the fidelity of the anonymized data using cosine similarity.
 
-### Validation Dataset: SST2
+9. Validation Dataset: SST2
 This folder contains all code and Jupyter notebooks for the experiments involving the SST2 dataset.
 
 ## Reproducing the Results
