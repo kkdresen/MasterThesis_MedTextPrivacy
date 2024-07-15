@@ -12,7 +12,7 @@ Our findings show that NER-based PII redaction consistently outperforms DP synth
 
 ## Structure of Repository
 
-The repository has nine folders:
+The repository has eight folders:
 
 1. Data
 This folder contains the original dataset mtsamples.csv dataset and the preprocessed file `2016r_mtsamples_final.csv` containing extracted sentences of 2,016 patient-doctor transcriptions used in this study.
@@ -26,16 +26,16 @@ This folder contains all code and Jupyter notebooks for the experiments on Named
 4. DP Synthetic Data Generation
 This folder contains all code and Jupyter notebooks for the experiments related to differentially private synthetic text generation using DistilGPT2. The code also includes the energy measurement of the anonymization technique using CodeCarbon and Renyi Differential Privacy to measure and validate the amount of noise added in the training process 
 
-6. Privacy
+5. Privacy
 This folder contains all code and Jupyter notebooks related to assessing privacy using n-grams.
 
-7. Utility
+6. Utility
 This folder contains all code and Jupyter notebooks for evaluating the utility of the anonymized data using a multi-label classification task
 
-8. Fidelity
+7. Fidelity
 This folder contains all code and Jupyter notebooks for evaluating the fidelity of the anonymized data using cosine similarity.
 
-9. Validation Dataset: SST2
+8. Validation Dataset: SST2
 This folder contains all code and Jupyter notebooks for the experiments involving the SST2 dataset.
 
 ## Reproducing the Results
